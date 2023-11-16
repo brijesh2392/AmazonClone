@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/header/Header";
-import Footer from "./components/Footer/Footer.jsx";
+import Footer from "./components/Footer/Footer";
 import Home from "./Pages/Home";
 import {
   createBrowserRouter,
@@ -42,9 +42,7 @@ function App() {
 
   return (
     <div className="font-bodyFont bg-gray-100">
-      
       <RouterProvider router={router}></RouterProvider>
-      
     </div>
   );
 }
