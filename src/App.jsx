@@ -13,8 +13,10 @@ import { productsData } from "./api/api";
 import Registration from "./Pages/Registration.jsx";
 import Checkout from "./Pages/Checkout.jsx";
 import Cart from "./Pages/Cart.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+
 import SignIn from "./Pages/SignIn.jsx";
+
+import Footer from "./components/Footer/Footer.jsx";
 
 const Layout = () => {
   return (
