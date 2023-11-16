@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./components/header/Header";
-import Footer from "./components/Footer/Footer";
-import Home from "./Pages/Home";
+import Header from "./components/header/Header.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import Home from "./Pages/Home.jsx";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -10,10 +10,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { productsData } from "./api/api";
-import Signin from "./Pages/Signin";
-import Registration from "./Pages/Registration";
-import Checkout from "./Pages/Checkout";
-import Cart from "./Pages/Cart";
+import SignIn from "./Pages/SignIn.jsx";
+import Registration from "./Pages/Registration.jsx";
+import Checkout from "./Pages/Checkout.jsx";
+import Cart from "./Pages/Cart.jsx";
 
 const Layout = () => {
   return (
@@ -33,7 +33,7 @@ function App() {
           <Route index element={<Home />} loader={productsData}></Route>
           <Route path="/cart" element={<Cart />}></Route>
         </Route>
-        <Route path="/signin" element={<Signin />}></Route>
+        <Route path="/signin" element={<SignIn />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/checkout" element={<Checkout />}></Route>
       </Route>
