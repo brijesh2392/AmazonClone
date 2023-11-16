@@ -9,11 +9,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { productsData } from "./api/api";
-import SignIn from "./Pages/SignIn.jsx";
+
 import Registration from "./Pages/Registration.jsx";
 import Checkout from "./Pages/Checkout.jsx";
 import Cart from "./Pages/Cart.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import SignIn from "./Pages/SignIn.jsx";
 
 const Layout = () => {
   return (
