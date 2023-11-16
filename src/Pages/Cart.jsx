@@ -8,7 +8,7 @@ import {
   decreaseQuantity,
 } from "../redux/amazonSlice";
 import { motion } from "framer-motion";
-import { emptyCart } from "../assets";
+import { emptyCart } from "../Assets";
 import { Link } from "react-router-dom";
 
 const Cart = () => {

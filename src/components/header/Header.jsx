@@ -1,4 +1,4 @@
-import { logo } from "../../assets/index.js";
+import { logo } from "../../Assets/index.js";
 import { MdLocationOn } from "react-icons/md";
 import { RiArrowDropDownFill } from "react-icons/ri";
 import { FaSearch } from "react-icons/fa";
@@ -12,9 +12,8 @@ import { setUserInfo, userSignOut } from "../../redux/amazonSlice.js";
 import { getAuth, signOut } from "firebase/auth";
 import { RiLogoutBoxRLine } from "react-icons/ri";
 
-
 const Header = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const products = useSelector((state) => state.amazonReducer.products);
   const userInfo = useSelector((state) => state.amazonReducer.userInfo);
   const ref = useRef();
@@ -38,7 +37,7 @@ const Header = () => {
       .catch((error) => {
         console.log(error);
       });
-  }
+  };
 
   return (
     <div className="w-full sticky top-0 z-50">
@@ -146,9 +145,6 @@ const Header = () => {
             </p>
           </div>
         )}
-
-          
-
       </div>
 
       {/* ========================== Header Bottom ================== */}

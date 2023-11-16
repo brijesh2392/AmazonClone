@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { AmazonDarkLogo, logo } from "../Assets/index.js";
 import { AiFillCaretRight } from "react-icons/ai";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import { RotatingLines } from "react-loader-spinner";
 import { useDispatch } from "react-redux";
 import { setUserInfo } from "../redux/amazonSlice.js";
+import { AmazonDarkLogo } from "../Assets/index.js";
 
 const SignIn = () => {
   const navigate = useNavigate();
