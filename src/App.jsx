@@ -1,6 +1,5 @@
 import "./App.css";
 import Header from "./components/header/Header.jsx";
-import Footer from "./components/Footer/Footer.jsx";
 import Home from "./Pages/Home.jsx";
 import {
   createBrowserRouter,
@@ -14,6 +13,7 @@ import SignIn from "./Pages/SignIn.jsx";
 import Registration from "./Pages/Registration.jsx";
 import Checkout from "./Pages/Checkout.jsx";
 import Cart from "./Pages/Cart.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const Layout = () => {
   return (
