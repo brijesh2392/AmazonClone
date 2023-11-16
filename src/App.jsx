@@ -13,9 +13,7 @@ import { productsData } from "./api/api";
 import Registration from "./Pages/Registration.jsx";
 import Checkout from "./Pages/Checkout.jsx";
 import Cart from "./Pages/Cart.jsx";
-
 import SignIn from "./Pages/SignIn.jsx";
-
 import Footer from "./components/Footer/Footer.jsx";
 
 const Layout = () => {
@@ -36,7 +34,7 @@ function App() {
           <Route index element={<Home />} loader={productsData}></Route>
           <Route path="/cart" element={<Cart />}></Route>
         </Route>
-        <Route path="/signin" element={<SignIn />}></Route>
+        <Route path="/SignIn" element={<SignIn />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/checkout" element={<Checkout />}></Route>
       </Route>

@@ -93,7 +93,7 @@ const Header = () => {
         </div>
 
         {/* ======================== Sign-in  ============================= */}
-        <Link to="/signin">
+        <Link to="/SignIn">
           <div className="flex flex-col items-start justify-center headerHover p-2">
             {userInfo ? (
               <p className=" text-sm text-gray-100 font-medium">
