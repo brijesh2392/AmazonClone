@@ -16,6 +16,7 @@ import Cart from "./Pages/Cart.jsx";
 import SignIn from "./Pages/SignIn.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
+
 const Layout = () => {
   return (
     <div>
